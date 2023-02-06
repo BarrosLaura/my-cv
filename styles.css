@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    
+}
+
+.information-column{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.information-column hr{
+    border: none;
+    border-bottom: 1px solid rgb(106, 173, 202);
+    margin-top: 18px;
+}
+
+.information-column img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid rgb(106, 173, 202);
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.information-column ul{
+    list-style-type: none;
+}
+
+.information-column li{
+ text-align: left;
+ margin-top: 10px 0;
+
+}
+
+
+.contact-description a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.contact-description i{
+    color: rgb(106, 173, 202);
+    margin-right: 10px;
+}
+.education-description{
+    margin-top: 32px;
+}
+.education-description p{
+    color: rgb(106, 173, 202);
+   
+
+}
+.language-description .percent{
+    height: 6px;
+    background-color: rgb(106, 173, 202);
+    margin-top: 5px;
+    width: 205px;
+
+
+}
+.language-description .percent div {
+    height: 6px;
+    background-color: rgb(190, 222, 236);
+}
+.language-description .percent.english div  {
+    width: 45%;
+
+}
+.expiences-column{
+    padding: 40px;
+    background-color: white;
+    color: black;
+    
+    
+}
+.expiences-column h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+.expiences-column ul {
+    list-style-type: none;
+}
+.expiences-column h3 {
+    margin-top: 15px;
+}
+.expiences-column a{
+    text-decoration: underline;
+    color: black;
+
+}
+.expiences-column .last-date{
+    text-align:right;
+    margin-top: 40px;
+
+}
+
+@media (min-width: 992px){
+    .container{
+        display:flex;
+
+    }
+    .information-column img{
+        width: 200px;
+        height: 200px;
+    }
+}
